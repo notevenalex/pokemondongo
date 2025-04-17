@@ -1,9 +1,8 @@
 import { Routes, Route } from "react-router-dom"
 import { Footer } from "./components/Footer"
 import { Home } from "./pages/Home"
-import { YesNoApi } from "./pages/YesNoApi"
-import { BreakingBad } from "./pages/BreakingBad"
 import { Menu } from "./components/Menu"
+import { PokeApi } from "./pages/PokeApi"
 
 function App() {
   
@@ -13,8 +12,7 @@ function App() {
     <Menu/>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/yesno" element={<YesNoApi />}></Route>
-        <Route path="/breaking" element={<BreakingBad />}></Route>
+        <Route path="/poke" element={<PokeApi />}></Route>
       </Routes>
       <Footer />
     </>

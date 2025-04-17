@@ -11,10 +11,7 @@ export const Menu = () => {
                 
             </li>
             <li>
-                <Link to="/yesno">YesNoApi</Link>
-            </li>
-            <li>
-                <Link to="/breaking">Breaking Bad Api</Link>
+                <Link to="/poke">Who's that poke?</Link>
             </li>
             
         </ul>
